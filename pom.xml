@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.aventrix.jnanoid</groupId>
+    <groupId>com.afe.nanoid</groupId>
     <artifactId>jnanoid</artifactId>
-    <version>2.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>JNanoId</name>
     <description>A unique string ID generator for Java.</description>
     <properties>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -101,11 +101,11 @@
             </plugin>
         </plugins>
     </build>
-    <url>https://github.com/aventrix/jnanoid</url>
-    <inceptionYear>2017</inceptionYear>
+    <url>https://github.com/nikolayy9/jnanoid</url>
+    <inceptionYear>2023</inceptionYear>
     <organization>
-        <name>Aventrix</name>
-        <url>https://www.aventrix.com</url>
+        <name>Auto Flow Engine</name>
+        <url>https://www.autoflowengine.com</url>
     </organization>
     <licenses>
         <license>
@@ -116,26 +116,26 @@
     </licenses>
     <developers>
         <developer>
-            <name>David Klebanoff</name>
-            <email>david@aventrix.com</email>
-            <organization>Aventrix</organization>
-            <organizationUrl>https://www.aventrix.com</organizationUrl>
+            <name>Nikolay Georgiev</name>
+            <email>nikolaypnc@gmail.com</email>
+            <organization>AutoFlowEngine</organization>
+            <organizationUrl>https://www.autoflowengine.com</organizationUrl>
             <roles>
                 <role>owner</role>
                 <role>developer</role>
             </roles>
-            <timezone>-8</timezone>
+            <timezone>+2</timezone>
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/aventrix/jnanoid.git</connection>
-        <developerConnection>scm:git:git@github.com:aventrix/jnanoid.git</developerConnection>
-        <url>https://github.com/aventrix/jnanoid</url>
+        <connection>https://github.com/nikolayy9/jnanoid</connection>
+        <developerConnection>https://github.com/nikolayy9</developerConnection>
+        <url>https://github.com/nikolayy9/jnanoid</url>
         <tag>HEAD</tag>
     </scm>
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/aventrix/jnanoid/issues</url>
+        <url>https://github.com/nikolayy9/jnanoid/issues</url>
     </issueManagement>
     <distributionManagement>
         <repository>
